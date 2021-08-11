@@ -98,8 +98,20 @@
               "apps/admin-web-app/src/styles.scss"
             ]
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "apps/admin-web-app/**/*.ts",
+              "apps/admin-web-app/**/*.html"
+            ]
+          }
         }
       }
     }
+  },
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
   }
 }
