@@ -4,7 +4,7 @@
   "sourceRoot": "projects/web-services/src",
   "compilerOptions": {
     "webpack": true,
-    "tsConfigPath": "tsconfig.json"
+    "tsConfigPath": "tsconfig.server.json"
   },
   "projects": {
     "web-services": {
