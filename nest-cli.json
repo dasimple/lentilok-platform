@@ -1,19 +1,19 @@
 {
   "collection": "@nestjs/schematics",
-  "root": "apps/services",
-  "sourceRoot": "apps/services/src",
+  "root": "projects/web-services",
+  "sourceRoot": "projects/web-services/src",
   "compilerOptions": {
     "webpack": true,
     "tsConfigPath": "tsconfig.json"
   },
   "projects": {
-    "services": {
+    "web-services": {
       "type": "application",
       "entryFile": "main",
-      "root": "apps/services",
-      "sourceRoot": "apps/services/src",
+      "root": "projects/web-services",
+      "sourceRoot": "projects/web-services/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/services/tsconfig.app.json"
+        "tsConfigPath": "projects/web-services/tsconfig.app.json"
       }
     }
   }
