@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.server.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "declaration": false,
     "outDir": "../../dist/projects/web-services"

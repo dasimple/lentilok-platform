@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -8,14 +8,6 @@
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
     "incremental": true,
-    "skipLibCheck": true,
-    "paths": {
-      "@lib/suka-lib": [
-        "libs/suka-lib/src"
-      ],
-      "@lib/suka-lib/*": [
-        "libs/suka-lib/src/*"
-      ]
-    }
+    "skipLibCheck": true
   }
 }
